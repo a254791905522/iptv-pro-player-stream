@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy — IPTV Pro Player Stream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --void: #05070a;
+            --line: rgba(0, 212, 170, 0.18);
+            --text: #e8edf4;
+            --muted: #8b9aaf;
+            --accent: #00d4aa;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'DM Sans', -apple-system, sans-serif;
+            background: var(--void);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.65;
+        }
+
+        .stripe {
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            opacity: 0.7;
+        }
+
+        header {
+            padding: 48px 24px 40px;
+            max-width: 640px;
+            margin: 0 auto;
+            border-bottom: 1px solid var(--line);
+        }
+
+        header h1 {
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            font-size: clamp(1.75rem, 4vw, 2.1rem);
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+
+        header .product {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        header .meta {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-top: 12px;
+        }
+
+        main {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 36px 24px 64px;
+        }
+
+        article {
+            margin-bottom: 40px;
+        }
+
+        article:last-of-type { margin-bottom: 0; }
+
+        article h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: var(--accent);
+            margin-bottom: 14px;
+        }
+
+        article p {
+            color: var(--muted);
+            font-size: 1rem;
+            margin-bottom: 12px;
+        }
+
+        article p:last-child { margin-bottom: 0; }
+
+        article a {
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        article a:hover { text-decoration: underline; }
+
+        .stat {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 20px 22px;
+            border-radius: 14px;
+            border: 1px solid var(--line);
+            background: rgba(0, 212, 170, 0.06);
+            margin-top: 8px;
+        }
+
+        .stat .icon {
+            font-size: 1.5rem;
+            line-height: 1;
+            flex-shrink: 0;
+        }
+
+        .stat p {
+            margin: 0;
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        .stat .sub {
+            display: block;
+            margin-top: 6px;
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: var(--muted);
+        }
+
+        ol.steps {
+            list-style: none;
+            counter-reset: step;
+            margin-top: 8px;
+        }
+
+        ol.steps li {
+            counter-increment: step;
+            position: relative;
+            padding-left: 44px;
+            margin-bottom: 18px;
+            color: var(--muted);
+            font-size: 0.98rem;
+        }
+
+        ol.steps li::before {
+            content: counter(step);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            background: rgba(0, 212, 170, 0.15);
+            color: var(--accent);
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .doc-footer {
+            margin-top: 48px;
+            padding-top: 28px;
+            border-top: 1px solid var(--line);
+            text-align: center;
+        }
+
+        .doc-footer a {
+            display: inline-block;
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        .doc-footer a:hover { text-decoration: underline; }
+
+        .doc-footer .home {
+            color: var(--muted);
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stripe" aria-hidden="true"></div>
+
+    <header>
+        <h1>Privacy overview</h1>
+        <p class="product">IPTV Pro Player Stream</p>
+        <p class="meta">Effective: April 2026 · This page is a plain-language summary for visitors to this site. The developer’s full policy is linked below.</p>
+    </header>
+
+    <main>
+        <article>
+            <h2>01 — Who provides the app</h2>
+            <p>IPTV Pro Player Stream is published on the App Store by <strong style="color: var(--text);">Said Lamaarague</strong> under <strong style="color: var(--text);">LOOWZ STUDIO</strong>. Category: Entertainment. The app is a playlist and streaming player only; it does not supply channels or hosted media.</p>
+        </article>
+
+        <article>
+            <h2>02 — Data collection (App Store disclosure)</h2>
+            <p>According to the product listing on the App Store, the developer indicates that <strong style="color: var(--text);">this app does not collect data from you</strong>. Practices may still vary by iOS version, features, or future updates; always refer to the latest information in App Store Connect and the developer’s official privacy policy.</p>
+            <div class="stat" role="note">
+                <span class="icon" aria-hidden="true">◇</span>
+                <p>
+                    App Store label: Data Not Collected
+                    <span class="sub">We summarize this here for convenience only; Apple’s App Privacy details and the developer policy below are authoritative.</span>
+                </p>
+            </div>
+        </article>
+
+        <article>
+            <h2>03 — Playlists and streams</h2>
+            <p>Playlists you import (files, URLs, favorites, and viewing history) are handled on your device as part of normal app function. Third-party playlist hosts and broadcasters may have their own terms; this site and this summary do not govern those services.</p>
+        </article>
+
+        <article>
+            <h2>04 — Children</h2>
+            <p>The app is rated <strong style="color: var(--text);">13+</strong> on the App Store. If you are a parent or guardian and have questions about suitability or privacy, review the developer policy and Apple’s family and privacy resources.</p>
+        </article>
+
+        <article>
+            <h2>05 — Changes</h2>
+            <p>We may revise this overview when the product or legal context changes. The “Effective” date at the top will be updated when material edits are made. Continued use of the app after store or policy updates means you accept the then-current terms shown by the developer and Apple.</p>
+        </article>
+
+        <article>
+            <h2>06 — Official contact &amp; full policy</h2>
+            <p>For the complete privacy statement, data requests, or developer contact details, use the official policy maintained by LOOWZ STUDIO:</p>
+            <ol class="steps">
+                <li>Open the developer privacy policy at <a href="https://loowz.com/privacy/" target="_blank" rel="noopener noreferrer">loowz.com/privacy</a>.</li>
+                <li>Check the App Store page for IPTV Pro Player Stream for the latest App Privacy labels and seller information.</li>
+            </ol>
+        </article>
+
+        <div class="doc-footer">
+            <a href="https://loowz.com/privacy/" target="_blank" rel="noopener noreferrer">Developer privacy policy</a>
+            <a href="https://apps.apple.com/us/app/iptv-pro-player-stream/id6761450613?uo=4" target="_blank" rel="noopener noreferrer">App Store listing</a>
+            <p style="margin-top: 20px;">
+                <a href="index.html" class="home">← Back to IPTV Pro Player Stream</a>
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
